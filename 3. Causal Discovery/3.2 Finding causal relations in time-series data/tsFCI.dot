@@ -1,0 +1,9 @@
+digraph g {
+ "chicken" -> "chicken:1" [dir=both, arrowtail=normal, arrowhead=none]; 
+ "chicken:1" -> "chicken:2" [dir=both, arrowtail=normal, arrowhead=none]; 
+ "chicken:2" -> "chicken:3" [dir=both, arrowtail=normal, arrowhead=none]; 
+ "egg" -> "egg:1" [dir=both, arrowtail=normal, arrowhead=none]; 
+ "egg:1" -> "egg:2" [dir=both, arrowtail=normal, arrowhead=none]; 
+ "egg" -> "egg:3" [dir=both, arrowtail=normal, arrowhead=odot]; 
+ "egg:2" -> "egg:3" [dir=both, arrowtail=normal, arrowhead=none]; 
+}
