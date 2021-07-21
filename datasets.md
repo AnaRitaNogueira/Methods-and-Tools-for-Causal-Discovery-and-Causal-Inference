@@ -1,8 +1,4 @@
-# Causality Repository
-
-The objective of this repository is to encapsulate several data sets used in causal discovery related tasks.
-
-## Public Available Data Sets
+# Public Available Data Sets
 
 The data sets presented in the following table are publicly available in several online repositories, and have been used in several published works related to causal discovery.
 | Paper | Data sets |Type|
@@ -20,7 +16,7 @@ The data sets presented in the following table are publicly available in several
  <a name="myfootnote1.2">3</a>: "Use of the data is permitted for non-commercial research and education purposes provided do not redistribute the data (with or without modification)"
   <suv/>*
 
-## Data sets Available Throught Request
+# Data sets Available Throught Request
 
 In this section, we present several data sets that are available through resquest (for example, filling a form).
 | Paper | Data sets |Type|
@@ -35,7 +31,7 @@ In this section, we present several data sets that are available through resques
 <sub/>*
   
   
-  ## Other causal discovery data sets
+  # Other causal discovery data sets
   These data sets are identified in the various sources as causal discovery data sets. However, they are classified as causal discovery data sets in various sources.
 
  Data set |Type|Source Location|
