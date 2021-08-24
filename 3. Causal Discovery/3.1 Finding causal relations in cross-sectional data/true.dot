@@ -1,0 +1,18 @@
+digraph {
+  "A" ;
+  "B" ;
+  "D" ;
+  "E" ;
+  "L" ;
+  "S" ;
+  "T" ;
+  "X" ;
+  edge [dir=forward] "A" -> "T" ;
+  edge [dir=forward] "S" -> "L" ;
+  edge [dir=forward] "S" -> "B" ;
+  edge [dir=forward] "B" -> "D" ;
+  edge [dir=forward] "E" -> "D" ;
+  edge [dir=forward] "T" -> "E" ;
+  edge [dir=forward] "L" -> "E" ;
+  edge [dir=forward] "E" -> "X" ;
+}

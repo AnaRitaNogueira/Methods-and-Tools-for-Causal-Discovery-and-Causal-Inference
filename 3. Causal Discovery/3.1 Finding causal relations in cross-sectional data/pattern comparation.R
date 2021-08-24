@@ -42,11 +42,11 @@ plot(fci.fit)
 fci.fit<-amat_to_graphNEL(fci.fit@amat)
 
 true_dag = model2network("[A][S][T|A][L|S][B|S][D|B:E][E|T:L][X|E]")
-
+graphviz.plot(true_dag)
 
 png("/home/rita/Documents/Micro-Projecto Causalidade/Examples for the paper/comparision.png",width = 1000,height = 1000)
-par(mfrow = c(4,4),bg=NA)
-graphviz.compare(true_dag, pc.fit, pc, ges.fit,fci.fit)
+par(mfrow = c(1,1),bg=NA)
+graphviz.compare(true_dag, pc.fit)
 dev.off()
 
 graphviz.compare(dag,x)
