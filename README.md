@@ -17,7 +17,7 @@ The first folder contains examples for section 3 of the paper. The examples are 
 The second folder contains the R scripts for the example in section 4.4. 
 We have two main files:
 
-* [running_example.R](https://github.com/AnaRitaNogueira/Methods-and-Tools-for-Causal-Discovery-and-Causal-Inference/blob/main/4.%20Causal%20Estimation/running_example.R), which refers to the code to replicate the results provided in Table 14.
+* [running_example.R](https://github.com/AnaRitaNogueira/Methods-and-Tools-for-Causal-Discovery-and-Causal-Inference/blob/main/4.%20Causal%20Estimation/running_example.R), which refers to the code to replicate the results provided in Table 14;
 * [running_small.R](https://github.com/AnaRitaNogueira/Methods-and-Tools-for-Causal-Discovery-and-Causal-Inference/blob/main/4.%20Causal%20Estimation/running_small.R), which was used to compute timing of each of the different methods.
 
 CSV files with results for each run are also provided.
