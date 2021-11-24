@@ -16,12 +16,6 @@ Each of these folders contains files that could help practitioners to find examp
 The first folder contains examples for section 3 of the paper. The examples are divided according to the kind of data: we have provided examples for both cross-sectional data techniques and scripts for dealing with causal discovery for time-series. Different software packages were tested in order to check different methods.
 
 ### Causal Discovery for cross-sectional data
-The main files are:
-
-* []()
-* [pattern_comparation.R](https://github.com/AnaRitaNogueira/Methods-and-Tools-for-Causal-Discovery-and-Causal-Inference/blob/main/3.%20Causal%20Discovery/3.1%20Finding%20causal%20relations%20in%20cross-sectional%20data/pattern%20comparation.R), which is used for 
-*
-*
 
 ### Causal Discovery for time-series data
 
