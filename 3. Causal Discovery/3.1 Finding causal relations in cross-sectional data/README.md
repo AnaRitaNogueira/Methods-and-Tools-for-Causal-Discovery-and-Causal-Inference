@@ -9,14 +9,14 @@ We have two main files:
 * [Tetrad.tet](https://github.com/AnaRitaNogueira/Methods-and-Tools-for-Causal-Discovery-and-Causal-Inference/blob/main/3.%20Causal%20Discovery/3.1%20Finding%20causal%20relations%20in%20cross-sectional%20data/Tetrad.tet), which refers to the process to implement Tetrad's PC.
 
 ## Auxiliary files
- We have one auxiliary file:
+ We have two auxiliary files:
   * [DAG comparision methods.R](https://github.com/AnaRitaNogueira/Methods-and-Tools-for-Causal-Discovery-and-Causal-Inference/blob/main/3.%20Causal%20Discovery/3.1%20Finding%20causal%20relations%20in%20cross-sectional%20data/DAG%20comparision%20methods.R), which refers to the auxiliary methods to compare Bayesian networks in terms of patterns.
-
+  * [asia.csv](https://github.com/AnaRitaNogueira/Methods-and-Tools-for-Causal-Discovery-and-Causal-Inference/blob/main/3.%20Causal%20Discovery/3.1%20Finding%20causal%20relations%20in%20cross-sectional%20data/asia.csv), which refers the csv file containing the asia dataset.
 
 We also add here relevant links to common tools to create causal discovery models, if different techniques need to be tested. Finally, we provide a list of available cross-sectional datasets.
 
 
-# Tools for cross-sectional data
+## Tools for cross-sectional data
 The objective of this repository is to encapsulate several softwares used in causal discovery related tasks.
 
 | Software | Author | Original Paper | Language | Source | Keywords |
@@ -37,7 +37,7 @@ The objective of this repository is to encapsulate several softwares used in cau
 
 
 
-# Public Available Data Sets
+## Public Available Data Sets
 
 The data sets presented in the following table are publicly available in several online repositories, and have been used in several published works related to causal discovery.
 | Paper | Data sets |
@@ -53,7 +53,7 @@ The data sets presented in the following table are publicly available in several
   <suv/>*
 
   
-  # Other causal discovery data sets
+  ## Other causal discovery data sets
   These data sets are identified in the various sources as causal discovery data sets. However, they are classified as causal discovery data sets in various sources.
 
  Data set |Source Location|
