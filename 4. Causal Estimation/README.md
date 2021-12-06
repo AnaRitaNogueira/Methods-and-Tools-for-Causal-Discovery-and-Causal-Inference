@@ -24,14 +24,11 @@ These tools are devided depending on the assumptions we can safely make.
 
 | Software | Authors | Paper | Language | Source |
 | -------- | ------- | ----- | -------- | ------ |
-| Matching | Jasjeet S. Sekhon | [Multivariate and Propensity Score Matching Software with Automated Balance Optimization: The Matching package for R](https://www.jstatsoft.org/article/view/v042i07) | R |  [Documentation](https://cran.r-project.org/web/packages/Matching/Matching.pdf) |
-| MatchIT | Daniel Ho, Kosuke Imai, Gary King, Elizabeth A. Stuart | [MatchIt: Nonparametric Preprocessing for Parametric Causal Inference
-](https://www.jstatsoft.org/article/view/v042i08) | R | [GitHub](https://github.com/kosukeimai/MatchIt) |
+| Matching | Jasjeet S. Sekhon | [Multivariate and Propensity Score Matching Software with Automated Balance Optimization: The Matching package for R](https://www.jstatsoft.org/article/view/v042i07) | R |  [Documentation](https://cran.r-project.org/web/packages/Matching) |
+| MatchIT | Daniel Ho, Kosuke Imai, Gary King, Elizabeth A. Stuart | [MatchIt: Nonparametric Preprocessing for Parametric Causal Inference](https://www.jstatsoft.org/article/view/v042i08) | R | [GitHub](https://github.com/kosukeimai/MatchIt) |
 | R-FLAME | Vittorio Orlandi, Sudeepa Roy, Cynthia Rudin, Alexander Volfovsky | [FLAME: A Fast Large-scale Almost Matching Exactly Approach to Causal Inference](https://arxiv.org/pdf/1707.06315.pdf) | R | [GitHub](https://github.com/almost-matching-exactly/R-FLAME) |
-
-
-dame-flame(Diengetal.,2019) 3ATE,CATE 3
-PSW(MaoandLi,2018) 3ATE,ATT,CATE 3
+| dame-flame | Yameng Liu, Awa Dieng, Sudeepa Roy, Cynthia Rudin, Alexander Volfovsky | [Interpretable Almost Matching Exactly for Causal Inference](https://arxiv.org/pdf/1806.06802.pdf) | Python | [GitHub](https://github.com/almost-matching-exactly/DAME-FLAME-Python-Package) |
+| PSW | Huzhang Mao,  Liang Li | []() | R | [CRAN](https://cran.r-project.org/package=PSW)  3ATE,ATT,CATE 3|
 CBPS(Fongetal.,2021) 3ATE,ATT,CATE,LATE 333
 ipw(vanderWalandGeskus,2011) 3ATE,ATT,CATE 33
 PSweight(Zhouetal.,2021) 3ATE,ATT,CATE 3
