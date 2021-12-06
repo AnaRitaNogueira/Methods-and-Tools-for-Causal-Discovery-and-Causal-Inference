@@ -10,7 +10,8 @@ The repository contains two main folders:
 * **[Causal Discovery](https://github.com/AnaRitaNogueira/Methods-and-Tools-for-Causal-Discovery-and-Causal-Inference/tree/main/3.%20Causal%20Discovery)**;
 * **[Causal Estimation](https://github.com/AnaRitaNogueira/Methods-and-Tools-for-Causal-Discovery-and-Causal-Inference/tree/main/4.%20Causal%20Estimation)**.
 
-Each of these folders contains files that could help practitioners to find examples on how to use different tools.
+Each of these folders contains a list of files to reproduce the examples in the paper and a list of tools for practitioners.
+Each tool is linked to its original documentation in order to have a practical and updated toolkit for different causal tasks.
 
 ## Causal Discovery
 The first folder contains examples for section 3 of the paper. The examples are divided according to the kind of data: we have provided examples for both cross-sectional data techniques and scripts for dealing with causal discovery for time-series. Different software packages were tested in order to check different methods.
@@ -19,15 +20,5 @@ The first folder contains examples for section 3 of the paper. The examples are 
 
 ### Causal Discovery for time-series data
 
-## Causal Estimation
-The second folder contains the R scripts for the example in section 4.4.
 
-We have two main files:
-
-* [running_example.R](https://github.com/AnaRitaNogueira/Methods-and-Tools-for-Causal-Discovery-and-Causal-Inference/blob/main/4.%20Causal%20Estimation/running_example.R), which refers to the code to replicate the results provided in Table 14. The file contains code examples for OLS linear regression, exact (one to one) matching estimator, full matching, stabilized IPW and doubly robust AIPW. 
-* [running_small.R](https://github.com/AnaRitaNogueira/Methods-and-Tools-for-Causal-Discovery-and-Causal-Inference/blob/main/4.%20Causal%20Estimation/running_small.R), which was used to compute timing of each of the different methods.
-
-CSV files with results for each run are also provided.
-
-It is worth noticing that these methods allow to retrieve the causal effect under the **unconfoundedness assumption**, which we assume it is satisfied, as we know how the data are generated.
 
