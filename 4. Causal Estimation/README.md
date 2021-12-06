@@ -17,7 +17,7 @@ These tools are devided depending on the assumptions we can safely make.
 | MatchIT | Daniel Ho, Kosuke Imai, Gary King, Elizabeth A. Stuart | [MatchIt: Nonparametric Preprocessing for Parametric Causal Inference](https://www.jstatsoft.org/article/view/v042i08) | R | [GitHub](https://github.com/kosukeimai/MatchIt) | Matching techniques.|
 | R-FLAME | Vittorio Orlandi, Sudeepa Roy, Cynthia Rudin, Alexander Volfovsky | [FLAME: A Fast Large-scale Almost Matching Exactly Approach to Causal Inference](https://arxiv.org/pdf/1707.06315.pdf) | R | [GitHub](https://github.com/almost-matching-exactly/R-FLAME) | Matching techniques. |
 | dame-flame | Yameng Liu, Awa Dieng, Sudeepa Roy, Cynthia Rudin, Alexander Volfovsky | [Interpretable Almost Matching Exactly for Causal Inference](https://arxiv.org/pdf/1806.06802.pdf) | Python | [GitHub](https://github.com/almost-matching-exactly/DAME-FLAME-Python-Package) | Matching techniques |
-| PSW | Huzhang Mao,  Liang Li | [Manual](https://cran.r-project.org/web/packages/PSW/PSW.pdf) | R | [CRAN](https://cran.r-project.org/package=PSW) | Propensity score weights techniques. |
+| PSW | Huzhang Mao,  Liang Li | [Propensity Score Weighting Methods for Dichotomous Treatments](https://cran.r-project.org/web/packages/PSW/PSW.pdf) | R | [CRAN](https://cran.r-project.org/package=PSW) | Propensity score weights techniques. |
 | CBPS | Christian Fong, Marc Ratkovic , Kosuke Imai, Chad Hazlett | [Covariate balancing propensity score for a continuous treatment: Application to the efficacy of political advertisements](https://doi.org/10.1214/17-AOAS1101) | R | [CRAN](https://cran.r-project.org/package=CBPS) | Propensity score methods. |
 | ipw | Willem M. van der Wal, Ronald B. Geskus | [ipw: An R Package for Inverse Probability Weighting](https://www.jstatsoft.org/article/view/v043i13) | R | [CRAN](https://cran.r-project.org/package=ipw) | Inverse probability method techniques. |
 | PSweight | Tianhui Zhou, Guangyu Tong, Fan Li, Laine E. Thomas,  Fan Li | [PSweight: An R Package for Propensity Score Weighting Analysis](https://arxiv.org/pdf/2010.08893v4) | R | [GitHub](https://github.com/thuizhou/PSweight) | Propensity scores methods. |
@@ -26,13 +26,14 @@ These tools are devided depending on the assumptions we can safely make.
 | tmle | 	Susan Gruber, Mark van der Laan, Chris Kennedy | [Targeted minimum loss based estimation of causal effects of multiple time point interventions](https://pubmed.ncbi.nlm.nih.gov/22611591/) | R | [CRAN](https://cran.r-project.org/package=tmle) | Targeted maximum likelihood estimator method. |
 | BART | Rodney A. Sparapani,Brent R. Logan,Robert E. McCulloch,Purushottam W. Laud | [Nonparametric survival analysis using Bayesian Additive Regression Trees (BART)](https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.6893) | R | [CRAN](https://cran.r-project.org/package=BART) | Bayesian Additive Regression Trees methodologies. |
 | grf | Julie Tibshirani, Susan Athey, Rina Friedberg, Vitor Hadad, David Hirshberg, Luke Miner, Erik Sverdrup, Stefan Wager, Marvin Wright | [Generalized Random Forests](https://projecteuclid.org/euclid.aos/1547197251) | R | [GitHub](https://github.com/grf-labs/grf) | Generalized Random Forests methods for causal inference. |
-| CEVAE(Shalitetal.,2017) 3ATE,ITE,CATE 3
-| SITE(Yaoetal.,2018) 3ATE,ATT,CATE 3
-| ivreg(Foxetal.,2021) LATE 3
-| rddrobust(Calonicoetal.,2021) ATEatthecutoff 3
-| rddtools(StiglerandQuast,2016) 3ATEatthecutoff 3
-| rdd(Dimmery,2016) 3ATEatthecutoff 3
-| plm(CroissantandMillo,2008) 3ATE 3
-| linearmodels(Sheppardetal.,2021) 3ATE 3
+| CEVAE | Christos Louizos, Uri Shalit, Joris M. Mooij, David Sontag, Richard Zemel, Max Welling | [Causal Effect Inference with Deep Latent-Variable Models](https://papers.nips.cc/paper/2017/hash/94b5bde6de888ddf9cde6748ad2523d1-Abstract.html) | Python | [GitHub](https://github.com/AMLab-Amsterdam/CEVAE) |  Causal Effect Variational Autoencoder method. |
+| SITE | Liuyi Yao, Sheng Li, Yaliang Li, Mengdi Huai, Jing Gao, Aidong Zhang | [Representation Learning for Treatment Effect Estimation from Observational Data](https://papers.nips.cc/paper/2018/hash/a50abba8132a77191791390c3eb19fe7-Abstract.html) | Python | [GitHub](https://github.com/Osier-Yi/SITE) | Individual treatment effect estimation method based on deep representation learning. |
+| ivreg | 	John Fox, Christian Kleiber, Achim Zeileis, Nikolas Kuschnig  | [Instrumental-Variables Regression by '2SLS', '2SM', or '2SMM', with Diagnostics](https://cran.r-project.org/web/packages/ivreg/ivreg.pdf) | R | [https://github.com/john-d-fox/ivreg](GitHub) | Instrumental Variables techniques.
+| rdrobust | Sebastian Calonico, Matias D. Cattaneo, Max H. Farrell, Rocio Titiunik | [Regression Discontinuity Designs](https://rdpackages.github.io/references/Cattaneo-Titiunik_2021_ARE.pdf)  | R, Python | [GitHub](https://rdpackages.github.io/)| Regression Discontinuity Design methods.
+| rddtools | Bastiaan Quast | [Toolbox for Regression Discontinuity Design ('RDD')](https://cran.r-project.org/web/packages/rddtools/rddtools.pdf) | R | [GitHub](https://github.com/bquast/rddtools) | Regression Discontinuity Design methods. 
+| rdd | DrewDimmery | [RegressionDiscontinuityEstimation](https://cran.r-project.org/web/packages/rdd/rdd.pdf) | R | [CRAN](https://cran.r-project.org/package=rdd) | Regression Discontinuity Design methods. 
+| plm | Yves Croissant, Giovanni Millo | [Panel Data Econometrics in R: The plm package](https://www.jstatsoft.org/article/view/v027i02)| R | [CRAN](https://cran.r-project.org/web/packages/plm/index.html) | Panel Data techniques.
+| linearmodels |  | NA | Python | [GitHub](https://bashtage.github.io/linearmodels/index.html) | Panel Data techniques and Instrumental Variables techniques 
+
 | Synth(Abadieetal.,2011) 3ATE 3
 | causalImpact(Brodersenetal.,2014) 33ATE 3
