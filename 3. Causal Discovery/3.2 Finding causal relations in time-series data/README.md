@@ -1,3 +1,21 @@
+# Causal Discovery in time-series data
+The folder contains the R scripts for the example in section 3.2.4.
+
+## Main files 
+
+We have two main files:
+
+* [PCMCI.py](https://github.com/AnaRitaNogueira/Methods-and-Tools-for-Causal-Discovery-and-Causal-Inference/blob/main/3.%20Causal%20Discovery/3.2%20Finding%20causal%20relations%20in%20time-series%20data/PCMCI.py), which refers to the code to replicate the results provided in Figure 9(b) (PCMCI). 
+* [evaluation.R](https://github.com/AnaRitaNogueira/Methods-and-Tools-for-Causal-Discovery-and-Causal-Inference/blob/main/3.%20Causal%20Discovery/3.2%20Finding%20causal%20relations%20in%20time-series%20data/evaluation.R), which refers to the code to replicate the results provided in Code 1 (granger causality) and Figure 9(a) (tsFCI). The file also contains code examples needed to perform a comparision between the methods. 
+
+## Auxiliary files
+ We have two auxiliary files:
+  * [ChickEgg unfolded.csv](https://github.com/AnaRitaNogueira/Methods-and-Tools-for-Causal-Discovery-and-Causal-Inference/blob/main/3.%20Causal%20Discovery/3.2%20Finding%20causal%20relations%20in%20time-series%20data/ChickEgg%20unfolded.csv), which refers ChickEgg train set, used in the example.
+  * [ChickEgg_test unfolded.csv](https://github.com/AnaRitaNogueira/Methods-and-Tools-for-Causal-Discovery-and-Causal-Inference/blob/main/3.%20Causal%20Discovery/3.2%20Finding%20causal%20relations%20in%20time-series%20data/ChickEgg_test%20unfolded.csv), which refers ChickEgg test set, used in the example.
+
+
+We also add here relevant links to common tools to create causal discovery models, if different techniques need to be tested. Finally, we provide a list of available time-series datasets.
+
 # Software available
 The objective of this repository is to encapsulate several softwares used in causal discovery related tasks.
 
