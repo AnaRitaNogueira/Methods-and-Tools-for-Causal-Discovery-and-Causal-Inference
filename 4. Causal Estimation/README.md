@@ -1,7 +1,17 @@
-
 # Causal Estimation
+The folder contains the R scripts for the example in section 4.4.
 
-The files provided here are for replictaing results in example 4.4.
+## Main files 
+
+
+We have two main files:
+
+* [running_example.R](https://github.com/AnaRitaNogueira/Methods-and-Tools-for-Causal-Discovery-and-Causal-Inference/blob/main/4.%20Causal%20Estimation/running_example.R), which refers to the code to replicate the results provided in Table 14. The file contains code examples for OLS linear regression, exact (one to one) matching estimator, full matching, stabilized IPW and doubly robust AIPW. 
+* [running_small.R](https://github.com/AnaRitaNogueira/Methods-and-Tools-for-Causal-Discovery-and-Causal-Inference/blob/main/4.%20Causal%20Estimation/running_small.R), which was used to compute timing of each of the different methods.
+
+CSV files with results for each run are also provided.
+
+It is worth noticing that these methods allow to retrieve the causal effect under the **unconfoundedness assumption**, which we assume it is satisfied, as we know how the data are generated.
 
 We also add here relevant links to common tools to estimate causal effects, if different techniques need to be tested.
 
