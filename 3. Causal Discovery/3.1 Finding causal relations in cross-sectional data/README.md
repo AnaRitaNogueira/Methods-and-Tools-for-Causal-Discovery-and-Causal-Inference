@@ -56,6 +56,7 @@ The data sets presented in the following table are publicly available in several
 | CausaLM Datasets | [Kaggle](https://www.kaggle.com/amirfeder/causalm?select=topics_dev.csv) |
 |Deaths related to the Northern Ireland conflict | [Kaggle](https://www.kaggle.com/cclayford/deaths-related-to-the-northern-ireland-conflict) |
 |Proper-names Categories | [Kaggle](https://www.kaggle.com/vered1986/propernames-categories?select=dataset_full.csv)|
+ |Uplift Modeling , Marketing Campaign Data| [Kaggle](https://www.kaggle.com/arashnic/uplift-modeling)|
 
 
 *<sub>
