@@ -9,7 +9,7 @@ These tools are devided depending on the assumptions we can safely make.
 
 
 | Software | Authors | Paper | Language | Source | Brief Description |
-| -------- | ------- | ----- | -------- | ------ |
+| -------- | ------- | ----- | -------- | ------ | ----------------- |
 | DoWhy | Amit Sharma, Emre Kiciman | [DoWhy: An End-to-End Library for Causal Inference](https://arxiv.org/abs/2011.04216) | Python | [Git Hub](https://github.com/Microsoft/dowhy) | General purpose library, several methods are available. |
 | CausalML | Huigang Chen, Totte Harinen, Jeong-Yoon Lee, Mike Yung, Zhenyu Zhao | [CausalML: Python Package for Causal Machine Learning](https://arxiv.org/abs/2002.11631) | Python | [Git Hub](https://github.com/uber/causalml) | It implements more modern approaches exploiting Machine Learning (ML) techniques. |
 | EconML | Keith Battocchi, Eleanor Dillon, Maggie Hei, Greg Lewis, Paul Oka, Miruna Oprescu, Vasilis Syrgkanis | [A Python Package for ML-Based Heterogeneous Treatment Effects Estimation](https://cpb-us-w2.wpmucdn.com/sites.coecis.cornell.edu/dist/a/238/files/2019/12/Id_112_final.pdf) | Python | [GitHub](https://github.com/microsoft/EconML) | It implements more modern approaches exploiting ML techniques. It can be used under the general framework of DoWhy. |
