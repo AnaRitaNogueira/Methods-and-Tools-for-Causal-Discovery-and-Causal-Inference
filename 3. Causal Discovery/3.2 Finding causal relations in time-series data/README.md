@@ -16,17 +16,14 @@ We have two main files:
 
 We also add here relevant links to common tools to create causal discovery models, if different techniques need to be tested. Finally, we provide a list of available time-series datasets.
 
-# Software available
-The objective of this repository is to encapsulate several softwares used in causal discovery related tasks.
-
-
+## Tools for time-series data
 | Software | Author | Original Paper | Language | Original Source | Keywords |
 | --- | --- | --- | --- | --- | --- |
 | Amortized Causal Discovery | Sindy Löwe, David Madras, Richard Zemel, Max Welling | [Amortized Causal Discovery: Learning to Infer Causal Graphs from Time-Series Data](https://arxiv.org/abs/2006.10833)| Python | [Git Hub](https://github.com/loeweX/AmortizedCausalDiscovery) | NA |
 | TCDF: Temporal Causal Discovery Framework | Meike Nauta, Doina Bucur and Christin Seifert | [Causal Discovery with Attention-Based Convolutional Neural Networks](https://www.mdpi.com/2504-4990/1/1/19) | Python | [Git Hub](https://github.com/M-Nauta/TCDF) | convolutional neural network; time series; causal discovery; attention; machine learning |
 |Tigramite| Jakob Runge |NA | Python | [Git Hub](https://github.com/jakobrunge/tigramite) | Causal discovery; time series|
 
-# Public Available Data Sets
+## Public Available Data Sets
 
 The data sets presented in the following table are publicly available in several online repositories, and have been used in several published works related to causal discovery.
 | Paper | Data sets |
@@ -40,7 +37,7 @@ The data sets presented in the following table are publicly available in several
  <a name="myfootnote1.2">3</a>: "Use of the data is permitted for non-commercial research and education purposes provided do not redistribute the data (with or without modification)"
   <suv/>*
 
-# Data sets Available Throught Request
+## Data sets Available Throught Request
 
 In this section, we present several data sets that are available through resquest (for example, filling a form).
 | Paper | Data sets |
@@ -55,7 +52,7 @@ In this section, we present several data sets that are available through resques
 <sub/>*
   
   
-  # Other causal discovery data sets
+  ## Other causal discovery data sets
   These data sets are identified in the various sources as causal discovery data sets. However, they are classified as causal discovery data sets in various sources.
 
  Data set |Source Location|
