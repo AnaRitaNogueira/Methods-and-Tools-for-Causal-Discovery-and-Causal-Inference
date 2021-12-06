@@ -1,7 +1,7 @@
 
 library(bnlearn)
 library(pcalg)
-data(asia) # function to obtain the data for this example
+asia <-read.csv("asia.csv") # function to obtain the data for this example
 
 numeric_asia <- data_frame_to_numeric(asia)
 values <-
