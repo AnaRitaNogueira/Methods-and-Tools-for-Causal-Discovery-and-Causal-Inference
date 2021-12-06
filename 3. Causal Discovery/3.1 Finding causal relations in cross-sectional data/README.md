@@ -1,3 +1,20 @@
+# Causal Discovery in cross-sectional data
+The folder contains the R scripts for the example in section 3.1.4.
+
+## Main files 
+
+We have two main files:
+
+* [pattern comparation.R](https://github.com/AnaRitaNogueira/Methods-and-Tools-for-Causal-Discovery-and-Causal-Inference/blob/main/3.%20Causal%20Discovery/3.1%20Finding%20causal%20relations%20in%20cross-sectional%20data/pattern%20comparation.R), which refers to the code to replicate the results provided in Figure 7. The file contains code examples for pcalg, bnlearn's PC, as well as the methods needed to perform a comparision between the methods. 
+* [Tetrad.tet](https://github.com/AnaRitaNogueira/Methods-and-Tools-for-Causal-Discovery-and-Causal-Inference/blob/main/3.%20Causal%20Discovery/3.1%20Finding%20causal%20relations%20in%20cross-sectional%20data/Tetrad.tet), which refers to the process to implement Tetrad's PC.
+
+## Auxiliary files
+ We have one auxiliary file:
+  * [DAG comparision methods.R](https://github.com/AnaRitaNogueira/Methods-and-Tools-for-Causal-Discovery-and-Causal-Inference/blob/main/3.%20Causal%20Discovery/3.1%20Finding%20causal%20relations%20in%20cross-sectional%20data/DAG%20comparision%20methods.R), which refers to the auxiliary methods to compare Bayesian networks in terms of patterns.
+
+
+We also add here relevant links to common tools to create causal discovery models, if different techniques need to be tested. Finally, we provide a list of available cross-sectional datasets.
+
 
 # Tools for cross-sectional data
 The objective of this repository is to encapsulate several softwares used in causal discovery related tasks.
