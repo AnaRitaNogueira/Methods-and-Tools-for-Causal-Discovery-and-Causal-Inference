@@ -1,3 +1,13 @@
+# Software available
+The objective of this repository is to encapsulate several softwares used in causal discovery related tasks.
+
+
+| Software | Author | Original Paper | Language | Original Source | Keywords |
+| --- | --- | --- | --- | --- | --- |
+| Amortized Causal Discovery | Sindy Löwe, David Madras, Richard Zemel, Max Welling | [Amortized Causal Discovery: Learning to Infer Causal Graphs from Time-Series Data](https://arxiv.org/abs/2006.10833)| Python | [Git Hub](https://github.com/loeweX/AmortizedCausalDiscovery) | NA |
+| TCDF: Temporal Causal Discovery Framework | Meike Nauta, Doina Bucur and Christin Seifert | [Causal Discovery with Attention-Based Convolutional Neural Networks](https://www.mdpi.com/2504-4990/1/1/19) | Python | [Git Hub](https://github.com/M-Nauta/TCDF) | convolutional neural network; time series; causal discovery; attention; machine learning |
+|Tigramite| Jakob Runge |NA | Python | [Git Hub](https://github.com/jakobrunge/tigramite) | Causal discovery; time series|
+
 # Public Available Data Sets
 
 The data sets presented in the following table are publicly available in several online repositories, and have been used in several published works related to causal discovery.
