@@ -5,7 +5,7 @@ By Ana Rita Nogueira, Andrea Pugnana, Salvatore Ruggieri, Dino Pedreschi and Joa
 
 This page is used as a support for the paper 
 
-Ana Rita Nogueira, Andrea Pugnana, Salvatore Ruggieri, Dino Pedrschi, Joao Gama. Methods and Tools for Causal Discovery and Causal Inference. 2021, submitted for pubblication.
+Ana Rita Nogueira, Andrea Pugnana, Salvatore Ruggieri, Dino Pedrschi, Joao Gama. _Methods and Tools for Causal Discovery and Causal Inference_. 2021, submitted for pubblication.
 
 The repository contains two main folders corresponding to sections in the paper:
 
